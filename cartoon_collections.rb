@@ -2,7 +2,7 @@ def roll_call_dwarves(array)# code an argument here
   i=0
   new_array=[]
   while i<array.length
-    array.each_with_index |name|
+    yield
     new_array<< " ${index}"+"${name}"
   end
   new_array
