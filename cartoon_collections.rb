@@ -2,8 +2,7 @@ def roll_call_dwarves(array)# code an argument here
   i=0
   new_array=[]
   while i<array.length
-    yield
-    new_array<< " ${index}"+"${name}"
+    puts "#{i+1}". "#{array[i]}"
   end
   new_array
 end
